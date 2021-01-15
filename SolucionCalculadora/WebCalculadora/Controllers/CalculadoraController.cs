@@ -54,7 +54,7 @@ namespace WebCalculadora.Controllers
             return num1 * num2;
         }
 
-       /* [HttpGet]
+        [HttpGet]
         [Route("div")]
         public int div(int num1, int num2)
         {
@@ -67,6 +67,6 @@ namespace WebCalculadora.Controllers
         public int divs([FromHeader] int num1, [FromHeader] int num2)
         {
             return num1 / num2;
-        }*/
+        }
     }
 }
