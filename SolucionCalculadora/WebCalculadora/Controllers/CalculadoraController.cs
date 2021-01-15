@@ -39,7 +39,7 @@ namespace WebCalculadora.Controllers
             return num1 - num2;
         }
 
-       /* [HttpGet]
+        [HttpGet]
         [Route("multi")]
         public int multi(int num1, int num2)
         {
@@ -54,7 +54,7 @@ namespace WebCalculadora.Controllers
             return num1 * num2;
         }
 
-        [HttpGet]
+       /* [HttpGet]
         [Route("div")]
         public int div(int num1, int num2)
         {
