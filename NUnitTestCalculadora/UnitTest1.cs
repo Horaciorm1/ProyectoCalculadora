@@ -333,5 +333,113 @@ namespace NUnitTestCalculadora
             Assert.AreEqual(esperado, resultado);
 
         }
+
+        [Test]
+        public void TestDivGet1()
+        {
+            //Arrange=Preparacion
+            int num1 = 10;
+            int num2 = 5;
+            int esperado = 2;
+            CalculadoraController calc = new CalculadoraController();
+
+            //Act=Ejecucion
+            int resultado = calc.div(num1, num2);
+
+
+            //Assert=Verificacion 
+            Assert.AreEqual(esperado, resultado);
+
+        }
+
+        [Test]
+        public void TestDivGet2()
+        {
+            //Arrange=Preparacion
+            int num1 = 20;
+            int num2 = 5;
+            int esperado = 4;
+            CalculadoraController calc = new CalculadoraController();
+
+            //Act=Ejecucion
+            int resultado = calc.div(num1, num2);
+
+
+            //Assert=Verificacion 
+            Assert.AreEqual(esperado, resultado);
+
+        }
+
+        [Test]
+        public void TestDivGet3()
+        {
+            //Arrange=Preparacion
+            int num1 = 20;
+            int num2 = 5;
+            int esperado = 4;
+            CalculadoraController calc = new CalculadoraController();
+
+            //Act=Ejecucion
+            int resultado = calc.div(num1, num2);
+
+
+            //Assert=Verificacion 
+            Assert.AreEqual(esperado, resultado);
+
+        }
+
+        [Test]
+        public void TestDivPost1()
+        {
+            //Arrange=Preparacion
+            int num1 = 100;
+            int num2 = 5;
+            int esperado = 20;
+            CalculadoraController calc = new CalculadoraController();
+
+            //Act=Ejecucion
+            int resultado = calc.divs(num1, num2);
+
+
+            //Assert=Verificacion 
+            Assert.AreEqual(esperado, resultado);
+
+        }
+
+        [Test]
+        public void TestDivPost2()
+        {
+            //Arrange=Preparacion
+            int num1 = 25;
+            int num2 = 5;
+            int esperado = 5;
+            CalculadoraController calc = new CalculadoraController();
+
+            //Act=Ejecucion
+            int resultado = calc.divs(num1, num2);
+
+
+            //Assert=Verificacion 
+            Assert.AreEqual(esperado, resultado);
+
+        }
+
+        [Test]
+        public void TestDivPost3()
+        {
+            //Arrange=Preparacion
+            int num1 = 30;
+            int num2 = 5;
+            int esperado = 6;
+            CalculadoraController calc = new CalculadoraController();
+
+            //Act=Ejecucion
+            int resultado = calc.divs(num1, num2);
+
+
+            //Assert=Verificacion 
+            Assert.AreEqual(esperado, resultado);
+
+        }
     }
 }
